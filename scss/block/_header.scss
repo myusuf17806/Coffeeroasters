@@ -1,0 +1,93 @@
+.header__menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu__list__item-link{
+    font-family: 'Barlow';
+    font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+text-decoration: none;
+}
+.header__menu__list{
+    display: flex;
+    list-style-type: none;
+}
+.header__menu__list__item{
+padding-left: 32px;
+}
+header{
+    margin-top: 44px;
+    margin-bottom: 51px;
+}
+@media only screen and (max-width:768px){
+    .header__menu{
+    //     display: flex;
+    // max-width: 689px;
+    // justify-content: space-between;
+    // align-items: center;
+    }
+    .header__menu__list__item-link{
+        font-family: 'Barlow';
+        font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #006aff;
+    text-decoration: none;
+    }
+    .header__menu__list{
+        display: flex;
+        list-style-type: none;
+    }
+    .header__menu__list__item{
+    padding-left: 32px;
+    }
+    header{
+        margin-top: 44px;
+        margin-bottom: 51px;
+    }
+}
+@media only screen and (max-width:375px){
+    .container{
+        width: 327px;
+        justify-content:space-between;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+    .header__menu-brand{
+        margin-right: 170px;
+    }
+    .header__menu{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .header__menu__list__item-link{
+        font-family: 'Barlow';
+        font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    text-decoration: none;
+    }
+    .header__menu__list{
+        display: flex;
+        list-style-type: none;
+    }
+    .header__menu__list__item{
+    padding-left: 32px;
+    }
+    header{
+        margin-top: 44px;
+        margin-bottom: 51px;
+    }
+}
